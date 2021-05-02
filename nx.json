@@ -12,9 +12,17 @@
   "npmScope": "company-finder",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "ZTBkNjNjOGEtZWRjZi00MGY2LWI2NDMtZDkxMDI2YzE5YjFifHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -24,7 +32,9 @@
     },
     "company-e2e": {
       "tags": [],
-      "implicitDependencies": ["company"]
+      "implicitDependencies": [
+        "company"
+      ]
     }
   }
 }
