@@ -1,7 +1,35 @@
 {
   "recommendations": [
-    "nrwl.angular-console",
     "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "jianbingfang.dupchecker",
+    "pkief.material-icon-theme",
+    "mohsen1.prettify-json",
+    "christian-kohler.npm-intellisense",
+    "alefragnani.bookmarks",
+    "coenraads.bracket-pair-colorizer-2",
+    "equinusocio.vsc-community-material-theme",
+    "msjsdiag.debugger-for-chrome",
+    "firefox-devtools.vscode-firefox-debug",
+    "equinusocio.vsc-material-theme",
+    "equinusocio.vsc-material-theme-icons",
+    "ms-vscode-remote.remote-wsl",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "geeebe.duplicate",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "felipecaputo.git-project-manager",
+    "eamodio.gitlens",
+    "zainchen.json",
+    "sysoev.language-stylus",
+    "bierner.markdown-preview-github-styles",
+    "davidanson.vscode-markdownlint",
+    "ms-vscode.vscode-typescript-next",
+    "thezhir.vscode-snippets",
+    "nucllear.vscode-extension-auto-import",
+    "brendan-mike.react-tsx-snippet",
+    "cssho.vscode-svgviewer"
   ]
 }

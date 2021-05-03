@@ -1,0 +1,61 @@
+{
+
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": [
+      "nrwl"
+  ],
+  "telemetry.enableTelemetry": false,
+  "enable-crash-reporter": false,
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"]
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    //   "editor.defaultFormatter": null
+  },
+  "terminal.integrated.automationShell.linux": null,
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.cursorStyle": "line",
+  "npm-intellisense.importES6": false,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importLinebreak": ";\r\n",
+  "npm-intellisense.importDeclarationType": "const",
+  "material-icon-theme.activeIconPack": "react",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "Features",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+
+  "dupchecker": {
+    "trimStart": true, // trim starting whitespaces in each line, default: true
+    "trimEnd": true, // trim ending whitespaces in each line, default: true
+    "ignoreCase": false, // ignore case when comparing lines, default: false
+    "leaveEmptyLine": true, // leave an empty line after removing duplicates if true, or remove whole line(including line break) if false, default: true
+    "removeAllDuplicates": false // remove
+  },
+  // "editor.tokenColorCustomizations": {
+  //   "[Material Theme]": {
+  //       "comments": "#0c6b11"
+  //   }
+},
+  "terminal.integrated.fontWeight": "normal"
+}

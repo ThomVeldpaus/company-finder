@@ -39,3 +39,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+/apps/yarn-global-add-nx/node_modules
+/apps/yarn-global-add-nx/public
+/apps/yarn-global-add-nx/.cache
