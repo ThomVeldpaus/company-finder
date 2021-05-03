@@ -14,12 +14,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "ZTBkNjNjOGEtZWRjZi00MGY2LWI2NDMtZDkxMDI2YzE5YjFifHJlYWQtd3JpdGU=",
         "canTrackAnalytics": false,
         "showUsageWarnings": true
@@ -32,9 +27,14 @@
     },
     "company-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "company"
-      ]
+      "implicitDependencies": ["company"]
+    },
+    "tutorial": {
+      "tags": []
+    },
+    "tutorial-e2e": {
+      "tags": [],
+      "implicitDependencies": ["tutorial"]
     }
   }
 }

@@ -2,3 +2,7 @@
 
 /dist
 /coverage
+
+/apps/tutorial/node_modules
+/apps/tutorial/public
+/apps/tutorial/.cache
