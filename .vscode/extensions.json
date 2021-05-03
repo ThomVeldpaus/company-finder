@@ -2,6 +2,24 @@
   "recommendations": [
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "alefragnani.bookmarks",
+    "coenraads.bracket-pair-colorizer-2",
+    "equinusocio.vsc-community-material-theme",
+    "pkief.material-icon-theme",
+    "equinusocio.vsc-material-theme",
+    "equinusocio.vsc-material-theme-icons",
+    "thezhir.vscode-snippets",
+    "nucllear.vscode-extension-auto-import",
+    "mgmcdermott.vscode-language-babel",
+    "streetsidesoftware.code-spell-checker",
+    "jianbingfang.dupchecker",
+    "geeebe.duplicate",
+    "streetsidesoftware.code-spell-checker-dutch",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "felipecaputo.git-project-manager",
+    "github.vscode-pull-request-github"
   ]
 }
